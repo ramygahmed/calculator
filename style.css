@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+*{
+    font-family: 'Supermercado One', cursive;
+}
+#container{
+    width: 400px;
+    height: 100%;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 30px;
+}
+#numDisplay{
+    padding: 20px 10px 20px 10px;
+    font-size: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#calcButtons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn,.btnZero{
+    font-size: 40px;
+    width: 25%;
+    height: 100px;
+    border-radius: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    
+}
+.btnZero{
+    border-radius: 20px;
+    width: 50%;
+}
+
+.lightGrey{background-color: rgb(173, 173, 173);}
+.orange{background-color: orange; color: white;}
+.darkGrey{background-color: rgb(85, 84, 84); color: white;}
+.lightGrey:hover{background-color: rgba(173, 173, 173, 0.808);}
+.orange:hover{background-color: rgba(255, 166, 0, 0.658); color: white;}
+.darkGrey:hover{background-color: rgba(85, 84, 84, 0.568); color: white;}
