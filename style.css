@@ -13,7 +13,7 @@
 }
 #numDisplay{
     padding: 20px 10px 20px 10px;
-    font-size: 80px;
+    font-size: 70px;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -22,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.btn,.btnZero{
+.btn,.btnZero,.btnAC,.btnSign,.btnMod,.btnDiv,.btnMul,.btnMin,.btnPlus,.btnDec,.btnEqual{
     font-size: 40px;
     width: 25%;
     height: 100px;
